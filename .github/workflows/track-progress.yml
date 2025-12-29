@@ -1,0 +1,37 @@
+name: Track Progress
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'problems/**/Solution.kt'
+  workflow_dispatch: 
+
+jobs:
+  update-progress: 
+    runs-on: ubuntu-latest
+    
+    permissions: 
+      contents: write
+    
+    steps:
+      - name:  Checkout code
+        uses: actions/checkout@v4
+        with: 
+          token: ${{ secrets. GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name:  Run tracking script
+        run: python scripts/track-progress.py
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add PROGRESS.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update progress tracking [skip ci]" && git push)
