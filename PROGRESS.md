@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: December 29, 2025 at 20:36 UTC
+Last Updated: December 30, 2025 at 15:21 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 1 / 148
-- **Completion Rate**: 0.7% 
-- **Problems Remaining**: 147
+- **Total Problems**: 2 / 148
+- **Completion Rate**: 1.4% 
+- **Problems Remaining**: 146
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: December 29, 2025 at 20:36 UTC
 ### 🟢 Easy (1 / 39 solved)
 Progress: ░░░░░░░░░░ 1/39 (3%)
 
-### 🟠 Medium (0 / 94 solved)
-Progress: ░░░░░░░░░░ 0/94 (0%)
+### 🟠 Medium (1 / 94 solved)
+Progress: ░░░░░░░░░░ 1/94 (1%)
 
 ### 🔴 Hard (0 / 20 solved)
 Progress: ░░░░░░░░░░ 0/20 (0%)
@@ -28,9 +28,9 @@ Progress: ░░░░░░░░░░ 0/20 (0%)
 ### 1D Dynamic Programming (0/4)
 Progress: ░░░░░░░░░░ 0%
 
-### Array/String (1/24)
-Progress: ░░░░░░░░░░ 4%
-- 🟢 1 Easy
+### Array/String (2/24)
+Progress: ░░░░░░░░░░ 8%
+- 🟢 1 Easy | 🟠 1 Medium
 
 ### Backtracking (0/7)
 Progress: ░░░░░░░░░░ 0%
@@ -113,9 +113,10 @@ Progress: ░░░░░░░░░░ 0%
 ## 🎉 Recently Solved
 
 - 🟢 **#88** - Merge Sorted Array (Array/String)
+- 🟠 **#80** - Remove Duplicates From Sorted Array Ii (Array/String)
 
 ---
 
 ## 📝 Notes
 
-Keep going! You've solved 1 problems.  Only 147 more to go!  💪
+Keep going! You've solved 2 problems.  Only 146 more to go!  💪
