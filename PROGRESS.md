@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: January 01, 2026 at 09:13 UTC
+Last Updated: January 02, 2026 at 15:20 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 3 / 148
-- **Completion Rate**: 2.0% 
-- **Problems Remaining**: 145
+- **Total Problems**: 4 / 148
+- **Completion Rate**: 2.7% 
+- **Problems Remaining**: 144
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: January 01, 2026 at 09:13 UTC
 ### 🟢 Easy (2 / 39 solved)
 Progress: ░░░░░░░░░░ 2/39 (5%)
 
-### 🟠 Medium (1 / 94 solved)
-Progress: ░░░░░░░░░░ 1/94 (1%)
+### 🟠 Medium (2 / 94 solved)
+Progress: ░░░░░░░░░░ 2/94 (2%)
 
 ### 🔴 Hard (0 / 20 solved)
 Progress: ░░░░░░░░░░ 0/20 (0%)
@@ -92,9 +92,9 @@ Progress: ░░░░░░░░░░ 0%
 ### Trie (0/3)
 Progress: ░░░░░░░░░░ 0%
 
-### Two Pointers (1/5)
-Progress: ██░░░░░░░░ 20%
-- 🟢 1 Easy
+### Two Pointers (2/5)
+Progress: ████░░░░░░ 40%
+- 🟢 1 Easy | 🟠 1 Medium
 
 ---
 
@@ -113,6 +113,7 @@ Progress: ██░░░░░░░░ 20%
 
 ## 🎉 Recently Solved
 
+- 🟠 **#167** - Two Sum Ii Input Array Is Sorted (Two Pointers)
 - 🟢 **#125** - Valid Palindrome (Two Pointers)
 - 🟢 **#88** - Merge Sorted Array (Array/String)
 - 🟠 **#80** - Remove Duplicates From Sorted Array Ii (Array/String)
@@ -121,4 +122,4 @@ Progress: ██░░░░░░░░ 20%
 
 ## 📝 Notes
 
-Keep going! You've solved 3 problems.  Only 145 more to go!  💪
+Keep going! You've solved 4 problems.  Only 144 more to go!  💪
