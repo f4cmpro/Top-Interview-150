@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: January 04, 2026 at 06:06 UTC
+Last Updated: January 06, 2026 at 14:53 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 5 / 148
-- **Completion Rate**: 3.4% 
-- **Problems Remaining**: 143
+- **Total Problems**: 6 / 148
+- **Completion Rate**: 4.1% 
+- **Problems Remaining**: 142
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: January 04, 2026 at 06:06 UTC
 ### 🟢 Easy (2 / 39 solved)
 Progress: ░░░░░░░░░░ 2/39 (5%)
 
-### 🟠 Medium (3 / 94 solved)
-Progress: ░░░░░░░░░░ 3/94 (3%)
+### 🟠 Medium (4 / 94 solved)
+Progress: ░░░░░░░░░░ 4/94 (4%)
 
 ### 🔴 Hard (0 / 20 solved)
 Progress: ░░░░░░░░░░ 0/20 (0%)
@@ -83,8 +83,9 @@ Progress: ░░░░░░░░░░ 0%
 ### Multidimensional DP (0/9)
 Progress: ░░░░░░░░░░ 0%
 
-### Sliding Window (0/4)
-Progress: ░░░░░░░░░░ 0%
+### Sliding Window (1/4)
+Progress: ██░░░░░░░░ 25%
+- 🟠 1 Medium
 
 ### Stack (0/5)
 Progress: ░░░░░░░░░░ 0%
@@ -113,6 +114,7 @@ Progress: ██████░░░░ 60%
 
 ## 🎉 Recently Solved
 
+- 🟠 **#209** - Minimum Size Subarray Sum (Sliding Window)
 - 🟠 **#167** - Two Sum Ii Input Array Is Sorted (Two Pointers)
 - 🟢 **#125** - Valid Palindrome (Two Pointers)
 - 🟢 **#88** - Merge Sorted Array (Array/String)
@@ -123,4 +125,4 @@ Progress: ██████░░░░ 60%
 
 ## 📝 Notes
 
-Keep going! You've solved 5 problems.  Only 143 more to go!  💪
+Keep going! You've solved 6 problems.  Only 142 more to go!  💪
