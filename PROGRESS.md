@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: January 06, 2026 at 14:53 UTC
+Last Updated: January 08, 2026 at 15:59 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 6 / 148
-- **Completion Rate**: 4.1% 
-- **Problems Remaining**: 142
+- **Total Problems**: 7 / 148
+- **Completion Rate**: 4.7% 
+- **Problems Remaining**: 141
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: January 06, 2026 at 14:53 UTC
 ### 🟢 Easy (2 / 39 solved)
 Progress: ░░░░░░░░░░ 2/39 (5%)
 
-### 🟠 Medium (4 / 94 solved)
-Progress: ░░░░░░░░░░ 4/94 (4%)
+### 🟠 Medium (5 / 94 solved)
+Progress: ░░░░░░░░░░ 5/94 (5%)
 
 ### 🔴 Hard (0 / 20 solved)
 Progress: ░░░░░░░░░░ 0/20 (0%)
@@ -83,9 +83,9 @@ Progress: ░░░░░░░░░░ 0%
 ### Multidimensional DP (0/9)
 Progress: ░░░░░░░░░░ 0%
 
-### Sliding Window (1/4)
-Progress: ██░░░░░░░░ 25%
-- 🟠 1 Medium
+### Sliding Window (2/4)
+Progress: █████░░░░░ 50%
+- 🟠 2 Medium
 
 ### Stack (0/5)
 Progress: ░░░░░░░░░░ 0%
@@ -120,9 +120,10 @@ Progress: ██████░░░░ 60%
 - 🟢 **#88** - Merge Sorted Array (Array/String)
 - 🟠 **#80** - Remove Duplicates From Sorted Array Ii (Array/String)
 - 🟠 **#15** - 3Sum (Two Pointers)
+- 🟠 **#3** - Longest Substring Without Repeating Characters (Sliding Window)
 
 ---
 
 ## 📝 Notes
 
-Keep going! You've solved 6 problems.  Only 142 more to go!  💪
+Keep going! You've solved 7 problems.  Only 141 more to go!  💪
