@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: January 08, 2026 at 15:59 UTC
+Last Updated: January 17, 2026 at 15:40 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 7 / 148
-- **Completion Rate**: 4.7% 
-- **Problems Remaining**: 141
+- **Total Problems**: 8 / 148
+- **Completion Rate**: 5.4% 
+- **Problems Remaining**: 140
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: January 08, 2026 at 15:59 UTC
 ### 🟢 Easy (2 / 39 solved)
 Progress: ░░░░░░░░░░ 2/39 (5%)
 
-### 🟠 Medium (5 / 94 solved)
-Progress: ░░░░░░░░░░ 5/94 (5%)
+### 🟠 Medium (6 / 94 solved)
+Progress: ░░░░░░░░░░ 6/94 (6%)
 
 ### 🔴 Hard (0 / 20 solved)
 Progress: ░░░░░░░░░░ 0/20 (0%)
@@ -77,8 +77,9 @@ Progress: ░░░░░░░░░░ 0%
 ### Math (0/6)
 Progress: ░░░░░░░░░░ 0%
 
-### Matrix (0/5)
-Progress: ░░░░░░░░░░ 0%
+### Matrix (1/5)
+Progress: ██░░░░░░░░ 20%
+- 🟠 1 Medium
 
 ### Multidimensional DP (0/9)
 Progress: ░░░░░░░░░░ 0%
@@ -119,6 +120,7 @@ Progress: ██████░░░░ 60%
 - 🟢 **#125** - Valid Palindrome (Two Pointers)
 - 🟢 **#88** - Merge Sorted Array (Array/String)
 - 🟠 **#80** - Remove Duplicates From Sorted Array Ii (Array/String)
+- 🟠 **#36** - Valid Sudoku (Matrix)
 - 🟠 **#15** - 3Sum (Two Pointers)
 - 🟠 **#3** - Longest Substring Without Repeating Characters (Sliding Window)
 
@@ -126,4 +128,4 @@ Progress: ██████░░░░ 60%
 
 ## 📝 Notes
 
-Keep going! You've solved 7 problems.  Only 141 more to go!  💪
+Keep going! You've solved 8 problems.  Only 140 more to go!  💪
