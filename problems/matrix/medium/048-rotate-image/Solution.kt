@@ -1,3 +1,5 @@
+package rotateimage
+
 class Solution {
     
 }

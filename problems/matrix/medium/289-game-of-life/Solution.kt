@@ -1,3 +1,5 @@
+package gameoflife
+
 class Solution {
     
 }
