@@ -220,6 +220,72 @@ Progress: {create_progress_bar(stats['by_difficulty']['Hard'], 20)} {stats['by_d
     with open('PROGRESS.md', 'w', encoding='utf-8') as f:
         f.write(content)
 
+def update_readme_file(stats):
+    """Update README.md with progress statistics"""
+    try:
+        with open('README.md', 'r', encoding='utf-8') as f:
+            readme_content = f.read()
+    except Exception as e:
+        print(f"Error reading README.md: {e}")
+        return
+    
+    # Calculate percentages
+    easy_pct = (stats['by_difficulty']['Easy'] / 39 * 100) if 39 > 0 else 0
+    medium_pct = (stats['by_difficulty']['Medium'] / 94 * 100) if 94 > 0 else 0
+    hard_pct = (stats['by_difficulty']['Hard'] / 20 * 100) if 20 > 0 else 0
+    total_pct = (stats['solved'] / 150 * 100) if 150 > 0 else 0
+    
+    # Update Progress Tracker table
+    progress_table = f"""| Difficulty | Solved | Total | Percentage |
+|-----------|--------|-------|------------|
+| 🟢 Easy | {stats['by_difficulty']['Easy']} | 50+ | {easy_pct:.0f}% |
+| 🟠 Medium | {stats['by_difficulty']['Medium']} | 75+ | {medium_pct:.0f}% |
+| 🔴 Hard | {stats['by_difficulty']['Hard']} | 25+ | {hard_pct:.0f}% |
+| **📈 Total** | **{stats['solved']}** | **150** | **{total_pct:.0f}%** |"""
+    
+    # Replace the progress tracker table
+    readme_content = re.sub(
+        r'\| Difficulty \| Solved \| Total \| Percentage \|.*?\| \*\*📈 Total\*\* \| \*\*\d+\*\* \| \*\*150\*\* \| \*\*\d+%\*\* \|',
+        progress_table,
+        readme_content,
+        flags=re.DOTALL
+    )
+    
+    # Build Topics Overview table
+    topic_order = [
+        'Array/String', 'Two Pointers', 'Sliding Window', 'Matrix', 'Hashmap',
+        'Intervals', 'Stack', 'Linked List', 'Binary Tree General', 'Binary Tree BFS',
+        'Binary Search Tree', 'Graph General', 'Graph BFS', 'Trie', 'Backtracking',
+        'Divide and Conquer', 'Kadane\'s Algorithm', 'Binary Search', 'Heap',
+        'Bit Manipulation', 'Math', '1D Dynamic Programming', 'Multidimensional DP'
+    ]
+    
+    topics_table_lines = []
+    for i, topic in enumerate(topic_order, 1):
+        if topic in stats['by_topic']:
+            data = stats['by_topic'][topic]
+            easy = data['by_difficulty']['Easy']
+            medium = data['by_difficulty']['Medium']
+            hard = data['by_difficulty']['Hard']
+            total = data['solved']
+            topics_table_lines.append(f"| {i} | {topic} | {easy} | {medium} | {hard} | {total} |")
+        else:
+            topics_table_lines.append(f"| {i} | {topic} | 0 | 0 | 0 | 0 |")
+    
+    topics_table = "| # | Topic | Easy | Medium | Hard | Total |\n|---|-------|------|--------|------|-------|\n" + "\n".join(topics_table_lines)
+    
+    # Replace the topics overview table
+    readme_content = re.sub(
+        r'\| # \| Topic \| Easy \| Medium \| Hard \| Total \|.*?\| 23 \| Multidimensional DP \| \d+ \| \d+ \| \d+ \| \d+ \|',
+        topics_table,
+        readme_content,
+        flags=re.DOTALL
+    )
+    
+    # Write updated content back to README.md
+    with open('README.md', 'w', encoding='utf-8') as f:
+        f.write(readme_content)
+
 if __name__ == '__main__': 
     print("🔍 Scanning problems...")
     stats = scan_problems()
@@ -227,4 +293,8 @@ if __name__ == '__main__':
     
     print("📝 Updating PROGRESS.md...")
     update_progress_file(stats)
-    print("✅ Progress updated successfully!")
+    print("✅ PROGRESS.md updated successfully!")
+    
+    print("📝 Updating README.md...")
+    update_readme_file(stats)
+    print("✅ README.md updated successfully!")

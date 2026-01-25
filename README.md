@@ -6,10 +6,10 @@
 
 | Difficulty | Solved | Total | Percentage |
 |-----------|--------|-------|------------|
-| 🟢 Easy | 0 | 50+ | 0% |
-| 🟠 Medium | 0 | 75+ | 0% |
+| 🟢 Easy | 2 | 50+ | 5% |
+| 🟠 Medium | 8 | 75+ | 9% |
 | 🔴 Hard | 0 | 25+ | 0% |
-| **📈 Total** | **0** | **150** | **0%** |
+| **📈 Total** | **10** | **150** | **7%** |
 
 ## 📚 Topics Overview
 
@@ -17,10 +17,10 @@ Based on [LeetCode's Top Interview 150 Study Plan](https://leetcode.com/studypla
 
 | # | Topic | Easy | Medium | Hard | Total |
 |---|-------|------|--------|------|-------|
-| 1 | Array / String | 0 | 0 | 0 | 0 |
-| 2 | Two Pointers | 0 | 0 | 0 | 0 |
-| 3 | Sliding Window | 0 | 0 | 0 | 0 |
-| 4 | Matrix | 0 | 0 | 0 | 0 |
+| 1 | Array/String | 1 | 1 | 0 | 2 |
+| 2 | Two Pointers | 1 | 2 | 0 | 3 |
+| 3 | Sliding Window | 0 | 2 | 0 | 2 |
+| 4 | Matrix | 0 | 3 | 0 | 3 |
 | 5 | Hashmap | 0 | 0 | 0 | 0 |
 | 6 | Intervals | 0 | 0 | 0 | 0 |
 | 7 | Stack | 0 | 0 | 0 | 0 |
@@ -35,7 +35,7 @@ Based on [LeetCode's Top Interview 150 Study Plan](https://leetcode.com/studypla
 | 16 | Divide and Conquer | 0 | 0 | 0 | 0 |
 | 17 | Kadane's Algorithm | 0 | 0 | 0 | 0 |
 | 18 | Binary Search | 0 | 0 | 0 | 0 |
-| 19 | Heap / Priority Queue | 0 | 0 | 0 | 0 |
+| 19 | Heap | 0 | 0 | 0 | 0 |
 | 20 | Bit Manipulation | 0 | 0 | 0 | 0 |
 | 21 | Math | 0 | 0 | 0 | 0 |
 | 22 | 1D Dynamic Programming | 0 | 0 | 0 | 0 |
