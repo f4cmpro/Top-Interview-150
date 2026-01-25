@@ -222,6 +222,12 @@ Progress: {create_progress_bar(stats['by_difficulty']['Hard'], 20)} {stats['by_d
 
 def update_readme_file(stats):
     """Update README.md with progress statistics"""
+    # Target counts from LeetCode Top Interview 150 study plan
+    EASY_TARGET = 39
+    MEDIUM_TARGET = 94
+    HARD_TARGET = 20
+    TOTAL_TARGET = 150
+    
     try:
         with open('README.md', 'r', encoding='utf-8') as f:
             readme_content = f.read()
@@ -230,10 +236,10 @@ def update_readme_file(stats):
         return
     
     # Calculate percentages
-    easy_pct = (stats['by_difficulty']['Easy'] / 39 * 100) if 39 > 0 else 0
-    medium_pct = (stats['by_difficulty']['Medium'] / 94 * 100) if 94 > 0 else 0
-    hard_pct = (stats['by_difficulty']['Hard'] / 20 * 100) if 20 > 0 else 0
-    total_pct = (stats['solved'] / 150 * 100) if 150 > 0 else 0
+    easy_pct = (stats['by_difficulty']['Easy'] / EASY_TARGET * 100) if EASY_TARGET > 0 else 0
+    medium_pct = (stats['by_difficulty']['Medium'] / MEDIUM_TARGET * 100) if MEDIUM_TARGET > 0 else 0
+    hard_pct = (stats['by_difficulty']['Hard'] / HARD_TARGET * 100) if HARD_TARGET > 0 else 0
+    total_pct = (stats['solved'] / TOTAL_TARGET * 100) if TOTAL_TARGET > 0 else 0
     
     # Update Progress Tracker table
     progress_table = f"""| Difficulty | Solved | Total | Percentage |
