@@ -1,3 +1,5 @@
+package wordPattern
+
 class Solution {
     
 }
