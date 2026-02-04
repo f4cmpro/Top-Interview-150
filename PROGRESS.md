@@ -1,19 +1,19 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: January 31, 2026 at 06:00 UTC
+Last Updated: February 04, 2026 at 15:47 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 12 / 148
-- **Completion Rate**: 8.1% 
-- **Problems Remaining**: 136
+- **Total Problems**: 13 / 148
+- **Completion Rate**: 8.8% 
+- **Problems Remaining**: 135
 
 ---
 
 ## 📈 Progress by Difficulty
 
-### 🟢 Easy (2 / 39 solved)
-Progress: ░░░░░░░░░░ 2/39 (5%)
+### 🟢 Easy (3 / 39 solved)
+Progress: ░░░░░░░░░░ 3/39 (8%)
 
 ### 🟠 Medium (10 / 94 solved)
 Progress: █░░░░░░░░░ 10/94 (11%)
@@ -59,8 +59,9 @@ Progress: ░░░░░░░░░░ 0%
 ### Graph General (0/5)
 Progress: ░░░░░░░░░░ 0%
 
-### Hashmap (0/9)
-Progress: ░░░░░░░░░░ 0%
+### Hashmap (1/9)
+Progress: █░░░░░░░░░ 11%
+- 🟢 1 Easy
 
 ### Heap (0/4)
 Progress: ░░░░░░░░░░ 0%
@@ -115,6 +116,7 @@ Progress: ██████░░░░ 60%
 
 ## 🎉 Recently Solved
 
+- 🟢 **#383** - Ransom Note (Hashmap)
 - 🟠 **#289** - Game Of Life (Matrix)
 - 🟠 **#209** - Minimum Size Subarray Sum (Sliding Window)
 - 🟠 **#167** - Two Sum Ii Input Array Is Sorted (Two Pointers)
@@ -124,10 +126,9 @@ Progress: ██████░░░░ 60%
 - 🟠 **#73** - Set Matrix Zeroes (Matrix)
 - 🟠 **#54** - Spiral Matrix (Matrix)
 - 🟠 **#48** - Rotate Image (Matrix)
-- 🟠 **#36** - Valid Sudoku (Matrix)
 
 ---
 
 ## 📝 Notes
 
-Keep going! You've solved 12 problems.  Only 136 more to go!  💪
+Keep going! You've solved 13 problems.  Only 135 more to go!  💪
