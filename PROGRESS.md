@@ -1,19 +1,19 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: February 13, 2026 at 16:28 UTC
+Last Updated: February 14, 2026 at 16:21 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 18 / 148
-- **Completion Rate**: 12.2% 
-- **Problems Remaining**: 130
+- **Total Problems**: 19 / 148
+- **Completion Rate**: 12.8% 
+- **Problems Remaining**: 129
 
 ---
 
 ## 📈 Progress by Difficulty
 
-### 🟢 Easy (8 / 39 solved)
-Progress: ██░░░░░░░░ 8/39 (21%)
+### 🟢 Easy (9 / 39 solved)
+Progress: ██░░░░░░░░ 9/39 (23%)
 
 ### 🟠 Medium (10 / 94 solved)
 Progress: █░░░░░░░░░ 10/94 (11%)
@@ -59,9 +59,9 @@ Progress: ░░░░░░░░░░ 0%
 ### Graph General (0/5)
 Progress: ░░░░░░░░░░ 0%
 
-### Hashmap (6/9)
-Progress: ██████░░░░ 67%
-- 🟢 6 Easy
+### Hashmap (7/9)
+Progress: ███████░░░ 78%
+- 🟢 7 Easy
 
 ### Heap (0/4)
 Progress: ░░░░░░░░░░ 0%
@@ -120,15 +120,15 @@ Progress: ██████░░░░ 60%
 - 🟢 **#290** - Word Pattern (Hashmap)
 - 🟠 **#289** - Game Of Life (Matrix)
 - 🟢 **#242** - Valid Anagram (Hashmap)
+- 🟢 **#219** - Contains Duplicate Ii (Hashmap)
 - 🟠 **#209** - Minimum Size Subarray Sum (Sliding Window)
 - 🟢 **#205** - Isomorphic Strings (Hashmap)
 - 🟢 **#202** - Happy Number (Hashmap)
 - 🟠 **#167** - Two Sum Ii Input Array Is Sorted (Two Pointers)
 - 🟢 **#125** - Valid Palindrome (Two Pointers)
-- 🟢 **#88** - Merge Sorted Array (Array/String)
 
 ---
 
 ## 📝 Notes
 
-Keep going! You've solved 18 problems.  Only 130 more to go!  💪
+Keep going! You've solved 19 problems.  Only 129 more to go!  💪
