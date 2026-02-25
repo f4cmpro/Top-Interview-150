@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: February 14, 2026 at 16:21 UTC
+Last Updated: February 25, 2026 at 16:11 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 19 / 148
-- **Completion Rate**: 12.8% 
-- **Problems Remaining**: 129
+- **Total Problems**: 20 / 148
+- **Completion Rate**: 13.5% 
+- **Problems Remaining**: 128
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: February 14, 2026 at 16:21 UTC
 ### 🟢 Easy (9 / 39 solved)
 Progress: ██░░░░░░░░ 9/39 (23%)
 
-### 🟠 Medium (10 / 94 solved)
-Progress: █░░░░░░░░░ 10/94 (11%)
+### 🟠 Medium (11 / 94 solved)
+Progress: █░░░░░░░░░ 11/94 (12%)
 
 ### 🔴 Hard (0 / 20 solved)
 Progress: ░░░░░░░░░░ 0/20 (0%)
@@ -59,9 +59,9 @@ Progress: ░░░░░░░░░░ 0%
 ### Graph General (0/5)
 Progress: ░░░░░░░░░░ 0%
 
-### Hashmap (7/9)
-Progress: ███████░░░ 78%
-- 🟢 7 Easy
+### Hashmap (8/9)
+Progress: ████████░░ 89%
+- 🟢 7 Easy | 🟠 1 Medium
 
 ### Heap (0/4)
 Progress: ░░░░░░░░░░ 0%
@@ -131,4 +131,4 @@ Progress: ██████░░░░ 60%
 
 ## 📝 Notes
 
-Keep going! You've solved 19 problems.  Only 129 more to go!  💪
+Keep going! You've solved 20 problems.  Only 128 more to go!  💪
