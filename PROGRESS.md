@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: March 18, 2026 at 15:04 UTC
+Last Updated: March 30, 2026 at 09:43 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 24 / 148
-- **Completion Rate**: 16.2% 
-- **Problems Remaining**: 124
+- **Total Problems**: 25 / 148
+- **Completion Rate**: 16.9% 
+- **Problems Remaining**: 123
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: March 18, 2026 at 15:04 UTC
 ### 🟢 Easy (10 / 39 solved)
 Progress: ██░░░░░░░░ 10/39 (26%)
 
-### 🟠 Medium (14 / 94 solved)
-Progress: █░░░░░░░░░ 14/94 (15%)
+### 🟠 Medium (15 / 94 solved)
+Progress: █░░░░░░░░░ 15/94 (16%)
 
 ### 🔴 Hard (0 / 20 solved)
 Progress: ░░░░░░░░░░ 0/20 (0%)
@@ -66,9 +66,9 @@ Progress: ██████████ 100%
 ### Heap (0/4)
 Progress: ░░░░░░░░░░ 0%
 
-### Intervals (3/4)
-Progress: ███████░░░ 75%
-- 🟢 1 Easy | 🟠 2 Medium
+### Intervals (4/4)
+Progress: ██████████ 100%
+- 🟢 1 Easy | 🟠 3 Medium
 
 ### Kadane's Algorithm (0/2)
 Progress: ░░░░░░░░░░ 0%
@@ -106,7 +106,7 @@ Progress: ██████░░░░ 60%
 
 - [x] First problem solved
 - [x] 10 problems solved
-- [ ] 25 problems solved
+- [x] 25 problems solved
 - [ ] 50 problems solved (1/3 complete)
 - [ ] 75 problems solved (halfway!)
 - [ ] 100 problems solved (2/3 complete)
@@ -117,6 +117,7 @@ Progress: ██████░░░░ 60%
 
 ## 🎉 Recently Solved
 
+- 🟠 **#452** - Minimum Number Of Arrows To Burst Balloons (Intervals)
 - 🟢 **#383** - Ransom Note (Hashmap)
 - 🟢 **#290** - Word Pattern (Hashmap)
 - 🟠 **#289** - Game Of Life (Matrix)
@@ -126,10 +127,9 @@ Progress: ██████░░░░ 60%
 - 🟠 **#209** - Minimum Size Subarray Sum (Sliding Window)
 - 🟢 **#205** - Isomorphic Strings (Hashmap)
 - 🟢 **#202** - Happy Number (Hashmap)
-- 🟠 **#167** - Two Sum Ii Input Array Is Sorted (Two Pointers)
 
 ---
 
 ## 📝 Notes
 
-Keep going! You've solved 24 problems.  Only 124 more to go!  💪
+Keep going! You've solved 25 problems.  Only 123 more to go!  💪
