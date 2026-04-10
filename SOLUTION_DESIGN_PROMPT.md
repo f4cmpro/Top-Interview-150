@@ -5,7 +5,7 @@ I need a comprehensive **Solution Design** for the following DSA problem:
 
 ## Problem Description:
 > [PASTE YOUR PROBLEM DESCRIPTION HERE]
-> https://leetcode.com/problems/simplify-path/
+> https://leetcode.com/problems/min-stack/
 
 **Preferred Language:** Kotlin
 
