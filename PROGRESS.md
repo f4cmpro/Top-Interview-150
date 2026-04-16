@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: April 16, 2026 at 17:06 UTC
+Last Updated: April 16, 2026 at 17:07 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 29 / 148
-- **Completion Rate**: 19.6% 
-- **Problems Remaining**: 119
+- **Total Problems**: 30 / 148
+- **Completion Rate**: 20.3% 
+- **Problems Remaining**: 118
 
 ---
 
@@ -18,8 +18,8 @@ Progress: ██░░░░░░░░ 11/39 (28%)
 ### 🟠 Medium (18 / 94 solved)
 Progress: █░░░░░░░░░ 18/94 (19%)
 
-### 🔴 Hard (0 / 20 solved)
-Progress: ░░░░░░░░░░ 0/20 (0%)
+### 🔴 Hard (1 / 20 solved)
+Progress: ░░░░░░░░░░ 1/20 (5%)
 
 ---
 
@@ -90,9 +90,9 @@ Progress: ░░░░░░░░░░ 0%
 Progress: █████░░░░░ 50%
 - 🟠 2 Medium
 
-### Stack (4/5)
-Progress: ████████░░ 80%
-- 🟢 1 Easy | 🟠 3 Medium
+### Stack (5/5)
+Progress: ██████████ 100%
+- 🟢 1 Easy | 🟠 3 Medium | 🔴 1 Hard
 
 ### Trie (0/3)
 Progress: ░░░░░░░░░░ 0%
@@ -124,13 +124,13 @@ Progress: ██████░░░░ 60%
 - 🟠 **#289** - Game Of Life (Matrix)
 - 🟢 **#242** - Valid Anagram (Hashmap)
 - 🟢 **#228** - Summary Ranges (Intervals)
+- 🔴 **#224** - Basic Calculator (Stack)
 - 🟢 **#219** - Contains Duplicate Ii (Hashmap)
 - 🟠 **#209** - Minimum Size Subarray Sum (Sliding Window)
 - 🟢 **#205** - Isomorphic Strings (Hashmap)
-- 🟢 **#202** - Happy Number (Hashmap)
 
 ---
 
 ## 📝 Notes
 
-Keep going! You've solved 29 problems.  Only 119 more to go!  💪
+Keep going! You've solved 30 problems.  Only 118 more to go!  💪

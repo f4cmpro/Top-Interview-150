@@ -8,8 +8,8 @@
 |-----------|--------|-------|------------|
 | 🟢 Easy | 11 | 50+ | 28% |
 | 🟠 Medium | 18 | 75+ | 19% |
-| 🔴 Hard | 0 | 25+ | 0% |
-| **📈 Total** | **29** | **150** | **19%** |
+| 🔴 Hard | 1 | 25+ | 5% |
+| **📈 Total** | **30** | **150** | **20%** |
 
 ## 📚 Topics Overview
 
@@ -23,7 +23,7 @@ Based on [LeetCode's Top Interview 150 Study Plan](https://leetcode.com/studypla
 | 4 | Matrix | 0 | 5 | 0 | 5 |
 | 5 | Hashmap | 7 | 2 | 0 | 9 |
 | 6 | Intervals | 1 | 3 | 0 | 4 |
-| 7 | Stack | 1 | 3 | 0 | 4 |
+| 7 | Stack | 1 | 3 | 1 | 5 |
 | 8 | Linked List | 0 | 0 | 0 | 0 |
 | 9 | Binary Tree General | 0 | 0 | 0 | 0 |
 | 10 | Binary Tree BFS | 0 | 0 | 0 | 0 |
