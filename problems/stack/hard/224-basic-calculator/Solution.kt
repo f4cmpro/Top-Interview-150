@@ -5,47 +5,67 @@ import java.util.Stack
 class Solution {
     fun calculate(s: String): Int {
         val stack1 = Stack<Char>()
-        val strBuilder = StringBuilder()
-        for (i in s.indices) {
-            val char = s[i]
-            if (char == '+' || char == '-') {
-                if (char == '-' && (i == 0 || s[i - 1] == '(')) {
-                    strBuilder.append(0)
+        val tokens = ArrayList<String>()
+        var i = 0
+        while (i < s.length) {
+            when (s[i]) {
+                '(' -> {
+                    stack1.push(s[i])
+                    i++
                 }
-                if (stack1.isEmpty()) {
-                    stack1.push(char)
-                } else {
-                    if (stack1.peek() == '+' || stack1.peek() == '-') {
-                        strBuilder.append(stack1.pop())
+
+                ')' -> {
+                    var operation = stack1.pop()
+                    while (operation != '(') {
+                        tokens.add(operation.toString())
+                        operation = stack1.pop()
                     }
-                    stack1.push(char)
+                    i++
                 }
-            } else if (char == '(') {
-                stack1.push(char)
-            } else if (char == ')') {
-                var operation = stack1.pop()
-                while (operation != '(') {
-                    strBuilder.append(operation)
-                    operation = stack1.pop()
+
+                '+' -> {
+                    if (stack1.isNotEmpty() && (stack1.peek() == '+' || stack1.peek() == '-')) {
+                        tokens.add(stack1.pop().toString())
+                    }
+                    stack1.push(s[i])
+                    i++
                 }
-            } else if (char == ' ') {
-                continue
-            } else {
-                strBuilder.append(char)
+
+                ' ' -> {
+                    i++
+                    continue
+                }
+
+                '-' -> {
+                    var k = i - 1
+                    while (k >= 0 && s[k] == ' ') {
+                        k--
+                    }
+                    if (k < 0 || s[k] == '(') {
+                        tokens.add("0")
+                    }
+                    i++
+                }
+
+                else -> {
+                    val numStr = StringBuilder()
+                    while (i < s.length && s[i] != '(' && s[i] != ')' && s[i] != '+' && s[i] != '-' && s[i] != ' ') {
+                        numStr.append(s[i])
+                        i++
+                    }
+                    tokens.add(numStr.toString())
+                }
             }
         }
-        while (stack1.isNotEmpty()) {
-            strBuilder.append(stack1.pop())
-        }
 
-        if (!strBuilder.contains('+') && !strBuilder.contains('-')) {
-            return strBuilder.toString().toInt()
+        while (stack1.isNotEmpty()) {
+            tokens.add(stack1.pop().toString())
         }
 
         val stack = Stack<Int>()
 
-        for (char in strBuilder) {
-            when (val str = char.toString()) {
+        for (str in tokens) {
+            when (str) {
                 "+" -> {
                     val operand1 = stack.pop()
                     val operand2 = stack.pop()
@@ -64,7 +84,7 @@ class Solution {
             }
         }
 
-        return stack.toString().toInt()
+        return stack.pop()
     }
 
     fun calculate2(s: String): Int {
@@ -88,6 +108,7 @@ class Solution {
                     i++
                     continue
                 }
+
                 '+' -> operation = '+'
                 '-' -> operation = '-'
                 else -> {
