@@ -44,6 +44,10 @@ class Solution {
                     if (k < 0 || s[k] == '(') {
                         tokens.add("0")
                     }
+                    if (stack1.isNotEmpty() && (stack1.peek() == '+' || stack1.peek() == '-')) {
+                        tokens.add(stack1.pop().toString())
+                    }
+                    stack1.push(s[i])
                     i++
                 }
 
@@ -62,7 +66,7 @@ class Solution {
             tokens.add(stack1.pop().toString())
         }
 
-        val stack = Stack<Int>()
+        val stack = Stack<Long>()
 
         for (str in tokens) {
             when (str) {
@@ -79,12 +83,12 @@ class Solution {
                 }
 
                 else -> {
-                    stack.push(str.toInt())
+                    stack.push(str.toLong())
                 }
             }
         }
 
-        return stack.pop()
+        return stack.pop().toInt()
     }
 
     fun calculate2(s: String): Int {
