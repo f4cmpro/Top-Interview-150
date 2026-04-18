@@ -5,7 +5,7 @@ I need a comprehensive **Solution Design** for the following DSA problem:
 
 ## Problem Description:
 > [PASTE YOUR PROBLEM DESCRIPTION HERE]
-> https://leetcode.com/problems/basic-calculator/
+> https://leetcode.com/problems/linked-list-cycle/
 
 **Preferred Language:** Kotlin
 
