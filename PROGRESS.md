@@ -1,19 +1,19 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: April 18, 2026 at 07:24 UTC
+Last Updated: April 18, 2026 at 11:53 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 30 / 148
-- **Completion Rate**: 20.3% 
-- **Problems Remaining**: 118
+- **Total Problems**: 31 / 148
+- **Completion Rate**: 20.9% 
+- **Problems Remaining**: 117
 
 ---
 
 ## 📈 Progress by Difficulty
 
-### 🟢 Easy (11 / 39 solved)
-Progress: ██░░░░░░░░ 11/39 (28%)
+### 🟢 Easy (12 / 39 solved)
+Progress: ███░░░░░░░ 12/39 (31%)
 
 ### 🟠 Medium (18 / 94 solved)
 Progress: █░░░░░░░░░ 18/94 (19%)
@@ -73,8 +73,9 @@ Progress: ██████████ 100%
 ### Kadane's Algorithm (0/2)
 Progress: ░░░░░░░░░░ 0%
 
-### Linked List (0/11)
-Progress: ░░░░░░░░░░ 0%
+### Linked List (1/11)
+Progress: ░░░░░░░░░░ 9%
+- 🟢 1 Easy
 
 ### Math (0/6)
 Progress: ░░░░░░░░░░ 0%
@@ -133,4 +134,4 @@ Progress: ██████░░░░ 60%
 
 ## 📝 Notes
 
-Keep going! You've solved 30 problems.  Only 118 more to go!  💪
+Keep going! You've solved 31 problems.  Only 117 more to go!  💪
