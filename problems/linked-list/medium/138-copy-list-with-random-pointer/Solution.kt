@@ -1,15 +1,26 @@
+package `138-copy-list-with-random-pointer`
+
 class Solution {
     fun copyRandomList(node: Node?): Node? {
         if (node == null) return null
-        var current = node
-        val copyNode : Node? = null
-        var copyCurrent = copyNode
+        val nodeMap = HashMap<Node, Node>()
+        var current: Node? = node
         while (current != null) {
-            val newNode = Node(current.`val`)
-            newNode.next = if (current.next != null) Node(node.next!!.`val`) else null
-            newNode.random = if (current.random != null) Node(current.random!!.`val`) else null
-            copyCurrent = newNode
+            val copyNode = Node(current.`val`)
+            nodeMap[current] = copyNode
+            current = current.next
         }
+        val dummyNode = Node(0)
+        var copyCurrent: Node? = dummyNode
+        current = node
+        while (current != null) {
+            copyCurrent?.next = nodeMap[current]
+            copyCurrent?.next?.next = nodeMap[current.next]
+            copyCurrent?.next?.random = nodeMap[current.random]
+            copyCurrent = copyCurrent?.next
+            current = current.next
+        }
+        return dummyNode.next
     }
 }
 

@@ -5,7 +5,7 @@ I need a comprehensive **Solution Design** for the following DSA problem:
 
 ## Problem Description:
 > [PASTE YOUR PROBLEM DESCRIPTION HERE]
-> https://leetcode.com/problems/merge-two-sorted-lists/
+> https://leetcode.com/problems/copy-list-with-random-pointer/
 
 **Preferred Language:** Kotlin
 
