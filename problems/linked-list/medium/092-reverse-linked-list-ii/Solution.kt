@@ -1,28 +1,30 @@
 class Solution {
     fun reverseBetween(head: ListNode?, left: Int, right: Int): ListNode? {
         if (left == right) return head
-        val listNode = ArrayList<ListNode>()
+        val nodeMap = HashMap<Int, ListNode>()
+        var index = 1
         var current = head
-        var start = left - 1
-        var end = right - 1
         while (current != null) {
-            listNode.add(current)
+            nodeMap[index] = current
+            index++
             current = current.next
         }
-        while (start < end) {
-            val temp = listNode[start]
-            listNode[start] = listNode[end]
-            listNode[end] = temp
-            start++
-            end--
-        }
+        current = head
+        index = 1
         val dummyHead = ListNode(0)
-        current = dummyHead
-        for (node in listNode) {
-            current?.next = node
-            current = current?.next
+        var copyCurrent: ListNode? = dummyHead
+        while (current != null) {
+            if (index >= left && index <= right) {
+                val reversedIndex = left + right - index
+                copyCurrent?.next = nodeMap[reversedIndex]
+            } else {
+                copyCurrent?.next = nodeMap[index]
+            }
+            println("index: $index, current: ${current.`val`}, copyCurrent: ${copyCurrent?.next?.`val`}")
+            current = current.next
+            copyCurrent = copyCurrent?.next
+            index++
         }
-        current?.next = null
         return dummyHead.next
     }
 }
