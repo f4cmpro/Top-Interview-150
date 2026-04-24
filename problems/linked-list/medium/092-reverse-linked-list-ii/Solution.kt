@@ -9,22 +9,18 @@ class Solution {
             index++
             current = current.next
         }
-        current = head
-        index = 1
         val dummyHead = ListNode(0)
         var copyCurrent: ListNode? = dummyHead
-        while (current != null) {
-            if (index >= left && index <= right) {
-                val reversedIndex = left + right - index
+        for (i in 1 until index) {
+            if (i >= left && i <= right) {
+                val reversedIndex = left + right - i
                 copyCurrent?.next = nodeMap[reversedIndex]
             } else {
-                copyCurrent?.next = nodeMap[index]
+                copyCurrent?.next = nodeMap[i]
             }
-            println("index: $index, current: ${current.`val`}, copyCurrent: ${copyCurrent?.next?.`val`}")
-            current = current.next
             copyCurrent = copyCurrent?.next
-            index++
         }
+        copyCurrent?.next = null
         return dummyHead.next
     }
 }
