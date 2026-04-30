@@ -4,8 +4,8 @@
 I need a comprehensive **Solution Design** for the following DSA problem:
 
 ## Problem Description:
-> [PASTE YOUR PROBLEM DESCRIPTION HERE]
-> https://leetcode.com/problems/reverse-nodes-in-k-group/
+> See the `README.md` file for the full problem description and LeetCode link.
+>
 
 **Preferred Language:** Kotlin
 
