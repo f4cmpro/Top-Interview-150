@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: April 30, 2026 at 08:32 UTC
+Last Updated: May 01, 2026 at 08:25 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 39 / 148
-- **Completion Rate**: 26.4% 
-- **Problems Remaining**: 109
+- **Total Problems**: 40 / 148
+- **Completion Rate**: 27.0% 
+- **Problems Remaining**: 108
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: April 30, 2026 at 08:32 UTC
 ### 🟢 Easy (16 / 39 solved)
 Progress: ████░░░░░░ 16/39 (41%)
 
-### 🟠 Medium (21 / 94 solved)
-Progress: ██░░░░░░░░ 21/94 (22%)
+### 🟠 Medium (22 / 94 solved)
+Progress: ██░░░░░░░░ 22/94 (23%)
 
 ### 🔴 Hard (2 / 20 solved)
 Progress: █░░░░░░░░░ 2/20 (10%)
@@ -28,9 +28,9 @@ Progress: █░░░░░░░░░ 2/20 (10%)
 ### 1D Dynamic Programming (0/4)
 Progress: ░░░░░░░░░░ 0%
 
-### Array/String (5/24)
-Progress: ██░░░░░░░░ 21%
-- 🟢 4 Easy | 🟠 1 Medium
+### Array/String (6/24)
+Progress: ██░░░░░░░░ 25%
+- 🟢 4 Easy | 🟠 2 Medium
 
 ### Backtracking (0/7)
 Progress: ░░░░░░░░░░ 0%
@@ -134,4 +134,4 @@ Progress: ██████░░░░ 60%
 
 ## 📝 Notes
 
-Keep going! You've solved 39 problems.  Only 109 more to go!  💪
+Keep going! You've solved 40 problems.  Only 108 more to go!  💪
