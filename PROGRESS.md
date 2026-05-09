@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: May 05, 2026 at 10:10 UTC
+Last Updated: May 09, 2026 at 13:16 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 44 / 148
-- **Completion Rate**: 29.7% 
-- **Problems Remaining**: 104
+- **Total Problems**: 45 / 148
+- **Completion Rate**: 30.4% 
+- **Problems Remaining**: 103
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: May 05, 2026 at 10:10 UTC
 ### 🟢 Easy (17 / 39 solved)
 Progress: ████░░░░░░ 17/39 (44%)
 
-### 🟠 Medium (25 / 94 solved)
-Progress: ██░░░░░░░░ 25/94 (27%)
+### 🟠 Medium (26 / 94 solved)
+Progress: ██░░░░░░░░ 26/94 (28%)
 
 ### 🔴 Hard (2 / 20 solved)
 Progress: █░░░░░░░░░ 2/20 (10%)
@@ -28,9 +28,9 @@ Progress: █░░░░░░░░░ 2/20 (10%)
 ### 1D Dynamic Programming (0/4)
 Progress: ░░░░░░░░░░ 0%
 
-### Array/String (10/24)
-Progress: ████░░░░░░ 42%
-- 🟢 5 Easy | 🟠 5 Medium
+### Array/String (11/24)
+Progress: ████░░░░░░ 46%
+- 🟢 5 Easy | 🟠 6 Medium
 
 ### Backtracking (0/7)
 Progress: ░░░░░░░░░░ 0%
@@ -123,15 +123,15 @@ Progress: ██████░░░░ 60%
 - 🟢 **#383** - Ransom Note (Hashmap)
 - 🟢 **#290** - Word Pattern (Hashmap)
 - 🟠 **#289** - Game Of Life (Matrix)
+- 🟠 **#274** - H Index (Array/String)
 - 🟢 **#242** - Valid Anagram (Hashmap)
 - 🟢 **#228** - Summary Ranges (Intervals)
 - 🔴 **#224** - Basic Calculator (Stack)
 - 🟢 **#219** - Contains Duplicate Ii (Hashmap)
 - 🟠 **#209** - Minimum Size Subarray Sum (Sliding Window)
-- 🟢 **#205** - Isomorphic Strings (Hashmap)
 
 ---
 
 ## 📝 Notes
 
-Keep going! You've solved 44 problems.  Only 104 more to go!  💪
+Keep going! You've solved 45 problems.  Only 103 more to go!  💪
