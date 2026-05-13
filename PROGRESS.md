@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: May 09, 2026 at 13:16 UTC
+Last Updated: May 13, 2026 at 08:35 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 45 / 148
-- **Completion Rate**: 30.4% 
-- **Problems Remaining**: 103
+- **Total Problems**: 46 / 148
+- **Completion Rate**: 31.1% 
+- **Problems Remaining**: 102
 
 ---
 
@@ -15,8 +15,8 @@ Last Updated: May 09, 2026 at 13:16 UTC
 ### 🟢 Easy (17 / 39 solved)
 Progress: ████░░░░░░ 17/39 (44%)
 
-### 🟠 Medium (26 / 94 solved)
-Progress: ██░░░░░░░░ 26/94 (28%)
+### 🟠 Medium (27 / 94 solved)
+Progress: ██░░░░░░░░ 27/94 (29%)
 
 ### 🔴 Hard (2 / 20 solved)
 Progress: █░░░░░░░░░ 2/20 (10%)
@@ -28,9 +28,9 @@ Progress: █░░░░░░░░░ 2/20 (10%)
 ### 1D Dynamic Programming (0/4)
 Progress: ░░░░░░░░░░ 0%
 
-### Array/String (11/24)
-Progress: ████░░░░░░ 46%
-- 🟢 5 Easy | 🟠 6 Medium
+### Array/String (12/24)
+Progress: █████░░░░░ 50%
+- 🟢 5 Easy | 🟠 7 Medium
 
 ### Backtracking (0/7)
 Progress: ░░░░░░░░░░ 0%
@@ -121,6 +121,7 @@ Progress: ██████░░░░ 60%
 
 - 🟠 **#452** - Minimum Number Of Arrows To Burst Balloons (Intervals)
 - 🟢 **#383** - Ransom Note (Hashmap)
+- 🟠 **#380** - Insert Delete Getrandom O1 (Array/String)
 - 🟢 **#290** - Word Pattern (Hashmap)
 - 🟠 **#289** - Game Of Life (Matrix)
 - 🟠 **#274** - H Index (Array/String)
@@ -128,10 +129,9 @@ Progress: ██████░░░░ 60%
 - 🟢 **#228** - Summary Ranges (Intervals)
 - 🔴 **#224** - Basic Calculator (Stack)
 - 🟢 **#219** - Contains Duplicate Ii (Hashmap)
-- 🟠 **#209** - Minimum Size Subarray Sum (Sliding Window)
 
 ---
 
 ## 📝 Notes
 
-Keep going! You've solved 45 problems.  Only 103 more to go!  💪
+Keep going! You've solved 46 problems.  Only 102 more to go!  💪
