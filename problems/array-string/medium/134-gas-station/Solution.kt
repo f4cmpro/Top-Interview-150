@@ -1,24 +1,19 @@
+package `134-gas-station`
+
 class Solution {
     fun canCompleteCircuit(gas: IntArray, cost: IntArray): Int {
-        var startIndex = -1
-        for (i in gas.indices) {
-            if (gas[i] - cost[i] >= 0) {
-                startIndex = i
-                break
+        var startIndex = 0
+        var sumCost = 0
+        var remaining = 0
+        for (i in 0 until gas.size) {
+            val currentTank = gas[i] - cost[i]
+            sumCost += currentTank
+            remaining += currentTank
+            if (remaining < 0) {
+                startIndex = i + 1
+                remaining = 0
             }
         }
-        if (startIndex == -1) {
-            return -1
-        }
-        var restTank = gas[startIndex] - cost[startIndex]
-        var nextIndex = startIndex + 1
-        while (nextIndex != startIndex) {
-            restTank += gas[nextIndex] - cost[nextIndex]
-            if (restTank < 0) {
-                return -1
-            }
-            nextIndex =
-        }
-        return startIndex
+        return if (sumCost >= 0) startIndex else -1
     }
 }
