@@ -8,8 +8,8 @@
 |-----------|--------|-------|------------|
 | 🟢 Easy | 17 | 50+ | 44% |
 | 🟠 Medium | 28 | 75+ | 30% |
-| 🔴 Hard | 3 | 25+ | 15% |
-| **📈 Total** | **48** | **150** | **32%** |
+| 🔴 Hard | 4 | 25+ | 20% |
+| **📈 Total** | **49** | **150** | **33%** |
 
 ## 📚 Topics Overview
 
@@ -17,7 +17,7 @@ Based on [LeetCode's Top Interview 150 Study Plan](https://leetcode.com/studypla
 
 | # | Topic | Easy | Medium | Hard | Total |
 |---|-------|------|--------|------|-------|
-| 1 | Array/String | 5 | 8 | 1 | 14 |
+| 1 | Array/String | 5 | 8 | 2 | 15 |
 | 2 | Two Pointers | 1 | 2 | 0 | 3 |
 | 3 | Sliding Window | 0 | 2 | 0 | 2 |
 | 4 | Matrix | 0 | 5 | 0 | 5 |
