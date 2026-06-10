@@ -54,3 +54,7 @@ Thumbs.db
 *.swo
 *~
 .cache/
+
+# Local editor and tooling folders
+.cph
+.vscode/
