@@ -20,11 +20,13 @@ def is_solved(file_path):
         normalized = re.sub(r'\s+', '', code_stripped)
         
         # Check for empty templates (Kotlin and C++)
+        # Kotlin: class Solution {}
         if normalized == 'classSolution{}':
             return False
-        if normalized == 'classnamespace':
+        # C++: class Solution {}; or namespace { class Solution {}; }
+        if normalized == 'classSolution{};':
             return False
-        if normalized == 'classSolution{}':
+        if normalized == 'namespace{classSolution{};}'  or normalized == 'namespace{classSolution{};}':
             return False
         
         # Check if has real implementation (more than 5 non-empty lines)
