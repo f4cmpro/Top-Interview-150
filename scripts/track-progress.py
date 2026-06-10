@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime
 
 def is_solved(file_path):
-    """Check if Solution file is implemented (not empty template)"""
+    """Check if a solution file is implemented (not an empty template)."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -103,22 +103,20 @@ def scan_problems():
             for problem_dir in sorted(diff_dir.iterdir()):
                 if not problem_dir.is_dir():
                     continue
-                
-                # Check for both Solution.kt and Solution.cpp
-                solution_kt = problem_dir / 'Solution.kt'
-                solution_cpp = problem_dir / 'Solution.cpp'
-                
-                solution_file = None
-                if solution_kt.exists():
-                    solution_file = solution_kt
-                elif solution_cpp.exists():
-                    solution_file = solution_cpp
-                
-                if solution_file:
+
+                # Count a problem if at least one supported solution file exists.
+                solution_files = [
+                    problem_dir / 'Solution.kt',
+                    problem_dir / 'Solution.cpp'
+                ]
+                existing_solution_files = [file for file in solution_files if file.exists()]
+
+                if existing_solution_files:
                     stats['total'] += 1
                     stats['by_topic'][topic_name]['total'] += 1
-                    
-                    if is_solved(solution_file):
+
+                    # Mark solved when any existing solution implementation is non-template.
+                    if any(is_solved(file) for file in existing_solution_files):
                         problem_num, problem_name = get_problem_info(problem_dir)
                         
                         stats['solved'] += 1
