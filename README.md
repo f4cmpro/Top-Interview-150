@@ -1,6 +1,6 @@
 # Top Interview 150 - LeetCode Solutions
 
-🚀 My journey through the **Top 150 LeetCode Interview Questions** using **Kotlin**
+🚀 My journey through the **Top 150 LeetCode Interview Questions** using **Kotlin** and **C++**
 
 ## 📊 Progress Tracker
 
@@ -73,29 +73,29 @@ Each problem follows this structure:
 
 ```
 problems/{topic}/{difficulty}/{number}-{problem-name}/
-├── Solution.kt
+├── Solution.kt / Solution.cpp
 └── README.md
 ```
 
 Example:
 ```
 problems/array-string/easy/088-merge-sorted-array/
-├── Solution.kt
+├── Solution.kt / Solution.cpp
 └── README.md
 ```
 
 ## 🛠️ Tech Stack
 
-- **Language**: Kotlin
-- **IDE**: IntelliJ IDEA / Android Studio
+- **Language**: Kotlin / C++
+- **IDE**: Android Studio / Visual Studio Code
 - **Testing**: JUnit (optional)
 
 ## 📖 How to Use
 
 1. Navigate to the problem folder
 2. Read the `README.md` for problem description and notes
-3. Check `Solution.kt` for the implementation
-4. Run and test locally
+3. Check `Solution.kt` or `Solution.cpp` for the implementation
+4. Build and run the solution locally
 
 ## 🎯 Goals
 
