@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'problems/**/Solution.kt'
+      - 'problems/**/Solution.cpp'
   workflow_dispatch: 
 
 jobs:
