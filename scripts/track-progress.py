@@ -4,21 +4,26 @@ from pathlib import Path
 from datetime import datetime
 
 def is_solved(file_path):
-    """Check if Solution. kt is implemented (not empty template)"""
+    """Check if Solution file is implemented (not empty template)"""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
         # Remove comments
-        code = re. sub(r'//.*', '', content)
+        code = re.sub(r'//.*', '', content)
         code = re.sub(r'/\*.*?\*/', '', code, flags=re.DOTALL)
         
         # Remove whitespace
-        code_stripped = code. strip()
+        code_stripped = code.strip()
         
         # Normalize whitespace for comparison
         normalized = re.sub(r'\s+', '', code_stripped)
         
+        # Check for empty templates (Kotlin and C++)
+        if normalized == 'classSolution{}':
+            return False
+        if normalized == 'classnamespace':
+            return False
         if normalized == 'classSolution{}':
             return False
         
@@ -77,7 +82,7 @@ def scan_problems():
     }
     
     for topic_dir in sorted(problems_dir.iterdir()):
-        if not topic_dir. is_dir():
+        if not topic_dir.is_dir():
             continue
         
         topic_name = topic_mapping.get(topic_dir.name, topic_dir.name.replace('-', ' ').title())
@@ -97,8 +102,17 @@ def scan_problems():
                 if not problem_dir.is_dir():
                     continue
                 
-                solution_file = problem_dir / 'Solution.kt'
-                if solution_file.exists():
+                # Check for both Solution.kt and Solution.cpp
+                solution_kt = problem_dir / 'Solution.kt'
+                solution_cpp = problem_dir / 'Solution.cpp'
+                
+                solution_file = None
+                if solution_kt.exists():
+                    solution_file = solution_kt
+                elif solution_cpp.exists():
+                    solution_file = solution_cpp
+                
+                if solution_file:
                     stats['total'] += 1
                     stats['by_topic'][topic_name]['total'] += 1
                     
@@ -206,7 +220,7 @@ Progress: {create_progress_bar(stats['by_difficulty']['Hard'], 20)} {stats['by_d
         recent = sorted(stats['solved_problems'], key=lambda x: x['number'], reverse=True)[:10]
         for problem in recent:
             emoji = {'Easy':  '🟢', 'Medium': '🟠', 'Hard': '🔴'}.get(problem['difficulty'], '')
-            content += f"- {emoji} **#{problem['number']}** - {problem['name']. replace('-', ' ').title()} ({problem['topic']})\n"
+            content += f"- {emoji} **#{problem['number']}** - {problem['name'].replace('-', ' ').title()} ({problem['topic']})\n"
     
     content += "\n---\n\n## 📝 Notes\n\n"
     
