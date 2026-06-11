@@ -7,7 +7,7 @@ I need a comprehensive **Solution Design** for the following DSA problem:
 > See the `README.md` file for the full problem description and LeetCode link.
 >
 
-**Preferred Language:** Kotlin
+**Preferred Language:** C++
 
 ---
 
