@@ -15,7 +15,22 @@ public:
                 i++;
             } else {
                 if(lengthCount < maxWidth) {
+                    string str = "";
+                    int spaceCount = wordCount - 1;
+                    if(spaceCount == 0) {
+                        for(int k = wordCount; k >= 1; k--) {
+                            str += words[i - k];
+                        }
+                        for(int k = 0; k < maxWidth - lengthCount; k++) {
+                            str += " ";
+                        }
+                    } else {
+                        if((maxWidth - lengthCount) % spaceCount == 0) {
 
+                        } else {
+                            
+                        }
+                    }
                 }
             }
         }
