@@ -27,7 +27,7 @@ I need a comprehensive **Solution Design** for the following DSA problem:
 * Mention specific Data Structures used (e.g., HashMap, Heap, Two Pointers) and why they were chosen.
 
 ### 4. Production-Ready Implementation:
-* Write the code in **Kotlin**.
+* Write the code in **C++**.
 * Ensure the code is **clean, modular, and readable** (meaningful variable names).
 * Include **Guard Clauses** to handle the edge cases identified in Step 1.
 * Add comments explaining complex logic.
