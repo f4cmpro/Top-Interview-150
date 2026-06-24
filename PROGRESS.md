@@ -1,12 +1,12 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: June 22, 2026 at 16:23 UTC
+Last Updated: June 24, 2026 at 14:53 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 56 / 148
-- **Completion Rate**: 37.8% 
-- **Problems Remaining**: 92
+- **Total Problems**: 57 / 148
+- **Completion Rate**: 38.5% 
+- **Problems Remaining**: 91
 
 ---
 
@@ -18,8 +18,8 @@ Progress: █████░░░░░ 21/39 (54%)
 ### 🟠 Medium (30 / 94 solved)
 Progress: ███░░░░░░░ 30/94 (32%)
 
-### 🔴 Hard (5 / 20 solved)
-Progress: ██░░░░░░░░ 5/20 (25%)
+### 🔴 Hard (6 / 20 solved)
+Progress: ███░░░░░░░ 6/20 (30%)
 
 ---
 
@@ -87,9 +87,9 @@ Progress: ██████████ 100%
 ### Multidimensional DP (0/9)
 Progress: ░░░░░░░░░░ 0%
 
-### Sliding Window (2/4)
-Progress: █████░░░░░ 50%
-- 🟠 2 Medium
+### Sliding Window (3/4)
+Progress: ███████░░░ 75%
+- 🟠 2 Medium | 🔴 1 Hard
 
 ### Stack (5/5)
 Progress: ██████████ 100%
@@ -134,4 +134,4 @@ Progress: ██████░░░░ 60%
 
 ## 📝 Notes
 
-Keep going! You've solved 56 problems.  Only 92 more to go!  💪
+Keep going! You've solved 57 problems.  Only 91 more to go!  💪
