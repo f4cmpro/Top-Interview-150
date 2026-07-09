@@ -35,3 +35,7 @@ I need a comprehensive **Solution Design** for the following DSA problem:
 ### 5. Verification & Complexity Finalization:
 * **Dry Run:** Walk through the code with a small specific example input to verify correctness.
 * State the final **Time** and **Space** complexity of the implemented code.
+
+---
+
+> **After completing the design, write the full solution design into the `README.md` file of the problem.**
