@@ -12,6 +12,9 @@ public:
             current = current->next;
         }
         int removedIndex = count - n + 1;
+        if(removedIndex == 1) {
+            return head->next;   
+        }
         current = head;
         count = 0;
         while (current != nullptr)
@@ -25,6 +28,7 @@ public:
             
             current = current->next;
         }
+        return head;
     }
 };
 
