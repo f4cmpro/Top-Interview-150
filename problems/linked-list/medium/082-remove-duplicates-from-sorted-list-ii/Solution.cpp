@@ -5,23 +5,24 @@ public:
         if(head == nullptr || head->next == nullptr) {
             return head;
         }
+        ListNode* dummy = new ListNode(-1);
+        dummy->next = head;
+        ListNode* prev = dummy;
         ListNode* current = head;
-        while (current != nullptr)
+        while (current && current->next)
         {
-            ListNode* next = current->next;
-            ListNode* nextNext = next->next;
-            if(next->val != nextNext->val) {
-                current = current->next;
-            } else {
-                while (next->val == nextNext->val)
+            if(current->val == current->next->val) {
+                while (current->next && current->val == current->next->val)
                 {
-                    current->next = nextNext->next;
-                    next = next->next;
-                    nextNext = nextNext->next;
+                    current = current->next;
                 }
+                prev->next = current->next;
+            } else {
+                prev = prev->next;
             }
+            current = current->next;
         }
-        return head;
+        return dummy->next;
     }
 };
 
