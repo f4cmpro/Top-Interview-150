@@ -1,19 +1,19 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: August 12, 2026 at 09:55 UTC
+Last Updated: August 24, 2026 at 10:17 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 62 / 148
-- **Completion Rate**: 41.9% 
-- **Problems Remaining**: 86
+- **Total Problems**: 63 / 148
+- **Completion Rate**: 42.6% 
+- **Problems Remaining**: 85
 
 ---
 
 ## 📈 Progress by Difficulty
 
-### 🟢 Easy (21 / 39 solved)
-Progress: █████░░░░░ 21/39 (54%)
+### 🟢 Easy (22 / 39 solved)
+Progress: █████░░░░░ 22/39 (56%)
 
 ### 🟠 Medium (35 / 94 solved)
 Progress: ███░░░░░░░ 35/94 (37%)
@@ -44,8 +44,9 @@ Progress: ░░░░░░░░░░ 0%
 ### Binary Tree BFS (0/4)
 Progress: ░░░░░░░░░░ 0%
 
-### Binary Tree General (0/14)
-Progress: ░░░░░░░░░░ 0%
+### Binary Tree General (1/14)
+Progress: ░░░░░░░░░░ 7%
+- 🟢 1 Easy
 
 ### Bit Manipulation (0/6)
 Progress: ░░░░░░░░░░ 0%
@@ -134,4 +135,4 @@ Progress: ██████░░░░ 60%
 
 ## 📝 Notes
 
-Keep going! You've solved 62 problems.  Only 86 more to go!  💪
+Keep going! You've solved 63 problems.  Only 85 more to go!  💪
