@@ -6,10 +6,10 @@
 
 | Difficulty | Solved | Total | Percentage |
 |-----------|--------|-------|------------|
-| 🟢 Easy | 22 | 50+ | 56% |
+| 🟢 Easy | 23 | 50+ | 59% |
 | 🟠 Medium | 35 | 75+ | 37% |
 | 🔴 Hard | 6 | 25+ | 30% |
-| **📈 Total** | **63** | **150** | **42%** |
+| **📈 Total** | **64** | **150** | **43%** |
 
 ## 📚 Topics Overview
 
@@ -25,7 +25,7 @@ Based on [LeetCode's Top Interview 150 Study Plan](https://leetcode.com/studypla
 | 6 | Intervals | 1 | 3 | 0 | 4 |
 | 7 | Stack | 1 | 3 | 1 | 5 |
 | 8 | Linked List | 2 | 8 | 1 | 11 |
-| 9 | Binary Tree General | 1 | 0 | 0 | 1 |
+| 9 | Binary Tree General | 2 | 0 | 0 | 2 |
 | 10 | Binary Tree BFS | 0 | 0 | 0 | 0 |
 | 11 | Binary Search Tree | 0 | 0 | 0 | 0 |
 | 12 | Graph General | 0 | 0 | 0 | 0 |
