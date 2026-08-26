@@ -1,19 +1,19 @@
 # 📊 Detailed Progress Tracking
 
-Last Updated: August 25, 2026 at 10:17 UTC
+Last Updated: August 26, 2026 at 10:03 UTC
 
 ## Overall Statistics
 
-- **Total Problems**: 64 / 148
-- **Completion Rate**: 43.2% 
-- **Problems Remaining**: 84
+- **Total Problems**: 65 / 148
+- **Completion Rate**: 43.9% 
+- **Problems Remaining**: 83
 
 ---
 
 ## 📈 Progress by Difficulty
 
-### 🟢 Easy (23 / 39 solved)
-Progress: █████░░░░░ 23/39 (59%)
+### 🟢 Easy (24 / 39 solved)
+Progress: ██████░░░░ 24/39 (62%)
 
 ### 🟠 Medium (35 / 94 solved)
 Progress: ███░░░░░░░ 35/94 (37%)
@@ -44,9 +44,9 @@ Progress: ░░░░░░░░░░ 0%
 ### Binary Tree BFS (0/4)
 Progress: ░░░░░░░░░░ 0%
 
-### Binary Tree General (2/14)
-Progress: █░░░░░░░░░ 14%
-- 🟢 2 Easy
+### Binary Tree General (3/14)
+Progress: ██░░░░░░░░ 21%
+- 🟢 3 Easy
 
 ### Bit Manipulation (0/6)
 Progress: ░░░░░░░░░░ 0%
@@ -128,11 +128,11 @@ Progress: ██████░░░░ 60%
 - 🟠 **#274** - H Index (Array/String)
 - 🟢 **#242** - Valid Anagram (Hashmap)
 - 🟢 **#228** - Summary Ranges (Intervals)
+- 🟢 **#226** - Invert Binary Tree (Binary Tree General)
 - 🔴 **#224** - Basic Calculator (Stack)
-- 🟢 **#219** - Contains Duplicate Ii (Hashmap)
 
 ---
 
 ## 📝 Notes
 
-Keep going! You've solved 64 problems.  Only 84 more to go!  💪
+Keep going! You've solved 65 problems.  Only 83 more to go!  💪
